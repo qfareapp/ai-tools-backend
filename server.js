@@ -1,4 +1,5 @@
 require("dotenv").config();
+console.log("Connecting to MongoDB with URI:", process.env.MONGO_URI);
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
